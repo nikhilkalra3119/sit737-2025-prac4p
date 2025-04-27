@@ -98,11 +98,6 @@ app.get("/divide", (req, res) => {
     }
 });
 
-app.get("/", (req, res) => {
-    res.send("Hello SIT 737");
-});
-
-
 const port = 3040;
 app.listen(port, () => {
     console.log("Hello SIT 737");
